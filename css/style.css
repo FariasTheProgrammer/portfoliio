@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+  background-color: #111;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px 20px;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+}
+
+.links-nav {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.links-nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.links-nav li a:hover {
+  color: red;
+}
+
+.principal {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+  padding: 0;
+}
+
+.texto-principal {
+  max-width: 600px;
+}
+
+.texto-principal .intro {
+  color: red;
+  font-size: 40px;
+}
+
+.texto-principal h1 {
+  font-size: 70px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.texto-principal .descricao {
+  font-size: 22px;
+  color: #b0b0b0;
+}
+
+.texto-principal button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.texto-principal button:hover {
+  background-color: #ff4c4c;
+}
+
+.imagem-perfil {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.imagem-perfil img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #111;
+  color: #b0b0b0;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+
